@@ -4,7 +4,7 @@ export interface DynamicConfig {
 }
 
 export const defaultConfig: DynamicConfig = {
-  apiUrl: '',
+  apiUrl: '111',
   environment: 'DEV'
 };
 
