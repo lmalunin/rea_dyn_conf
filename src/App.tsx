@@ -20,6 +20,7 @@ function App() {
   useEffect(() => {
     if (process.env.NODE_ENV === 'development') {
       setConfig(defaultConfig);
+      setConfigLoadingState('ready');
     } else {
       axios
           .get(dynamicConfigUrl)
